@@ -1,0 +1,13 @@
+
+    {
+      "name": "audio-transcription",
+      "version": "1.0.0",
+      "description": "音频文件上传与 Whisper 转录云函数",
+      "main": "index.js",
+      "dependencies": {
+        "@cloudbase/node-sdk": "^3.3.7",
+        "formidable": "^3.5.1",
+        "mime-types": "^2.1.35"
+      }
+    }
+  

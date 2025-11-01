@@ -1,0 +1,61 @@
+
+[
+  {
+    "_id": "progress_user_123",
+    "user_id": "user_123",
+    "total_notes": 15,
+    "total_flashcards": 42,
+    "total_quizzes": 18,
+    "completed_quizzes": 15,
+    "streak_days": 7,
+    "knowledge_score": 78,
+    "last_activity_date": 1730380800000,
+    "weekly_study_hours": 12.5,
+    "monthly_study_hours": 45.5,
+    "total_study_hours": 156.5,
+    "createdAt": 1730270000000,
+    "updatedAt": 1730380800000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "progress_user_456",
+    "user_id": "user_456",
+    "total_notes": 8,
+    "total_flashcards": 25,
+    "total_quizzes": 10,
+    "completed_quizzes": 8,
+    "streak_days": 3,
+    "knowledge_score": 52,
+    "last_activity_date": 1730360000000,
+    "weekly_study_hours": 8.5,
+    "monthly_study_hours": 28.0,
+    "total_study_hours": 89.0,
+    "createdAt": 1730260000000,
+    "updatedAt": 1730360000000,
+    "owner": "user_456",
+    "createBy": "user_456",
+    "updateBy": "user_456"
+  },
+  {
+    "_id": "progress_user_789",
+    "user_id": "user_789",
+    "total_notes": 3,
+    "total_flashcards": 8,
+    "total_quizzes": 5,
+    "completed_quizzes": 3,
+    "streak_days": 1,
+    "knowledge_score": 25,
+    "last_activity_date": 1730380000000,
+    "weekly_study_hours": 3.5,
+    "monthly_study_hours": 3.5,
+    "total_study_hours": 3.5,
+    "createdAt": 1730380000000,
+    "updatedAt": 1730380000000,
+    "owner": "user_789",
+    "createBy": "user_789",
+    "updateBy": "user_789"
+  }
+]
+  

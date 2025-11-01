@@ -1,0 +1,40 @@
+
+[
+  {
+    "_id": "user_123",
+    "email": "student@example.com",
+    "display_name": "学习达人",
+    "avatar": "https://example.com/avatars/user123.jpg",
+    "plan": "premium",
+    "createdAt": 1730270000000,
+    "updatedAt": 1730370000000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "user_456",
+    "email": "teacher@example.com",
+    "display_name": "张老师",
+    "avatar": "https://example.com/avatars/user456.jpg",
+    "plan": "pro",
+    "createdAt": 1730260000000,
+    "updatedAt": 1730360000000,
+    "owner": "user_456",
+    "createBy": "user_456",
+    "updateBy": "user_456"
+  },
+  {
+    "_id": "user_789",
+    "email": "newbie@example.com",
+    "display_name": "新手小白",
+    "avatar": "https://example.com/avatars/user789.jpg",
+    "plan": "free",
+    "createdAt": 1730380000000,
+    "updatedAt": 1730380000000,
+    "owner": "user_789",
+    "createBy": "user_789",
+    "updateBy": "user_789"
+  }
+]
+  

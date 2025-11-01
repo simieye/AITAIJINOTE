@@ -1,0 +1,61 @@
+
+[
+  {
+    "_id": "sub_user_123",
+    "user_id": "user_123",
+    "plan_type": "super",
+    "status": "active",
+    "current_period_start": 1730270000000,
+    "current_period_end": 1732958400000,
+    "cancelled_at": null,
+    "trial_end": null,
+    "auto_renew": true,
+    "price": 2900,
+    "currency": "CNY",
+    "payment_method": "wechat",
+    "createdAt": 1730270000000,
+    "updatedAt": 1730270000000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "sub_user_456",
+    "user_id": "user_456",
+    "plan_type": "free",
+    "status": "active",
+    "current_period_start": 1730260000000,
+    "current_period_end": 1730260000000,
+    "cancelled_at": null,
+    "trial_end": 1730346400000,
+    "auto_renew": false,
+    "price": 0,
+    "currency": "USD",
+    "payment_method": null,
+    "createdAt": 1730260000000,
+    "updatedAt": 1730260000000,
+    "owner": "user_456",
+    "createBy": "user_456",
+    "updateBy": "user_456"
+  },
+  {
+    "_id": "sub_user_789",
+    "user_id": "user_789",
+    "plan_type": "free",
+    "status": "trialing",
+    "current_period_start": 1730380000000,
+    "current_period_end": 1730380000000,
+    "cancelled_at": null,
+    "trial_end": 1730466400000,
+    "auto_renew": false,
+    "price": 0,
+    "currency": "CNY",
+    "payment_method": null,
+    "createdAt": 1730380000000,
+    "updatedAt": 1730380000000,
+    "owner": "user_789",
+    "createBy": "user_789",
+    "updateBy": "user_789"
+  }
+]
+  

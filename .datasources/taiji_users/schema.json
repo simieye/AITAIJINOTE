@@ -1,0 +1,28 @@
+
+{
+  "name": "taiji_users",
+  "title": "太极用户",
+  "schemas": [
+    {
+      "name": "email",
+      "title": "邮箱地址",
+      "type": "Email"
+    },
+    {
+      "name": "display_name",
+      "title": "显示名称",
+      "type": "String"
+    },
+    {
+      "name": "avatar",
+      "title": "头像",
+      "type": "Image"
+    },
+    {
+      "name": "plan",
+      "title": "订阅计划",
+      "type": "String"
+    }
+  ]
+}
+  

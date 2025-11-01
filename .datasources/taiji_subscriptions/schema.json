@@ -1,0 +1,67 @@
+
+{
+  "name": "taiji_subscriptions",
+  "title": "太极用户订阅",
+  "schemas": [
+    {
+      "name": "user_id",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "plan_type",
+      "title": "订阅类型",
+      "type": "String"
+    },
+    {
+      "name": "status",
+      "title": "订阅状态",
+      "type": "String"
+    },
+    {
+      "name": "current_period_start",
+      "title": "当前周期开始时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "current_period_end",
+      "title": "当前周期结束时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "cancelled_at",
+      "title": "取消时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "trial_end",
+      "title": "试用期结束时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "auto_renew",
+      "title": "自动续费",
+      "type": "Boolean"
+    },
+    {
+      "name": "price",
+      "title": "订阅价格",
+      "type": "Number"
+    },
+    {
+      "name": "currency",
+      "title": "货币类型",
+      "type": "String"
+    },
+    {
+      "name": "payment_method",
+      "title": "支付方式",
+      "type": "String"
+    }
+  ]
+}
+  

@@ -1,0 +1,104 @@
+
+[
+  {
+    "_id": "pay_001",
+    "user_id": "user_123",
+    "subscription_id": "sub_user_123",
+    "amount": 2900,
+    "currency": "CNY",
+    "status": "succeeded",
+    "payment_method": "wechat",
+    "transaction_id": "wx_20241031_123456789",
+    "description": "超级太极版月订阅",
+    "metadata": {
+      "plan_type": "super",
+      "period": "monthly",
+      "discount_code": null,
+      "ip_address": "123.456.789.012"
+    },
+    "paid_at": 1730270000000,
+    "refunded_at": null,
+    "refund_amount": 0,
+    "createdAt": 1730270000000,
+    "updatedAt": 1730270000000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "pay_002",
+    "user_id": "user_456",
+    "subscription_id": "sub_user_456",
+    "amount": 0,
+    "currency": "USD",
+    "status": "succeeded",
+    "payment_method": null,
+    "transaction_id": "trial_activation_456",
+    "description": "免费试用激活",
+    "metadata": {
+      "plan_type": "free",
+      "period": "trial",
+      "discount_code": null,
+      "ip_address": "98.765.432.109"
+    },
+    "paid_at": 1730260000000,
+    "refunded_at": null,
+    "refund_amount": 0,
+    "createdAt": 1730260000000,
+    "updatedAt": 1730260000000,
+    "owner": "user_456",
+    "createBy": "user_456",
+    "updateBy": "user_456"
+  },
+  {
+    "_id": "pay_003",
+    "user_id": "user_789",
+    "subscription_id": "sub_user_789",
+    "amount": 0,
+    "currency": "CNY",
+    "status": "succeeded",
+    "payment_method": null,
+    "transaction_id": "trial_activation_789",
+    "description": "免费试用激活",
+    "metadata": {
+      "plan_type": "free",
+      "period": "trial",
+      "discount_code": "WELCOME2024",
+      "ip_address": "111.222.333.444"
+    },
+    "paid_at": 1730380000000,
+    "refunded_at": null,
+    "refund_amount": 0,
+    "createdAt": 1730380000000,
+    "updatedAt": 1730380000000,
+    "owner": "user_789",
+    "createBy": "user_789",
+    "updateBy": "user_789"
+  },
+  {
+    "_id": "pay_004",
+    "user_id": "user_123",
+    "subscription_id": "sub_user_123",
+    "amount": 29000,
+    "currency": "CNY",
+    "status": "succeeded",
+    "payment_method": "alipay",
+    "transaction_id": "alipay_20241031_987654321",
+    "description": "超级太极版年订阅",
+    "metadata": {
+      "plan_type": "super",
+      "period": "yearly",
+      "discount_code": "YEARLY20",
+      "ip_address": "123.456.789.012"
+    },
+    "paid_at": 1730270000000,
+    "refunded_at": null,
+    "refund_amount": 0,
+    "createdAt": 1730270000000,
+    "updatedAt": 1730270000000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  }
+]
+  

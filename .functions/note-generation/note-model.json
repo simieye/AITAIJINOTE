@@ -1,0 +1,72 @@
+
+    {
+      "name": "note",
+      "displayName": "笔记",
+      "description": "存储由转录文本生成的结构化笔记",
+      "fields": [
+        {
+          "name": "recordingId",
+          "type": "text",
+          "displayName": "关联录音ID",
+          "required": true,
+          "description": "关联的录音记录ID"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "displayName": "笔记标题",
+          "required": true,
+          "description": "笔记的标题"
+        },
+        {
+          "name": "summary",
+          "type": "text",
+          "displayName": "摘要",
+          "required": true,
+          "description": "转录内容的简洁摘要"
+        },
+        {
+          "name": "keyPoints",
+          "type": "array",
+          "displayName": "关键要点",
+          "required": false,
+          "description": "转录内容的关键要点列表"
+        },
+        {
+          "name": "actionItems",
+          "type": "array",
+          "displayName": "行动项",
+          "required": false,
+          "description": "需要后续行动的事项列表"
+        },
+        {
+          "name": "tags",
+          "type": "array",
+          "displayName": "标签",
+          "required": false,
+          "description": "笔记的标签列表"
+        },
+        {
+          "name": "originalTranscription",
+          "type": "text",
+          "displayName": "原始转录文本",
+          "required": true,
+          "description": "原始的语音转录文本"
+        },
+        {
+          "name": "createdAt",
+          "type": "datetime",
+          "displayName": "创建时间",
+          "required": true,
+          "description": "笔记创建时间"
+        },
+        {
+          "name": "updatedAt",
+          "type": "datetime",
+          "displayName": "更新时间",
+          "required": true,
+          "description": "笔记最后更新时间"
+        }
+      ]
+    }
+  

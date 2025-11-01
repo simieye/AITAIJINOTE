@@ -1,0 +1,11 @@
+
+    {
+      "name": "quiz-generation",
+      "version": "1.0.0",
+      "description": "基于笔记内容自动生成测验题的云函数",
+      "main": "index.js",
+      "dependencies": {
+        "@cloudbase/node-sdk": "^3.3.7"
+      }
+    }
+  

@@ -1,0 +1,43 @@
+
+{
+  "name": "taiji_recordings",
+  "title": "太极录音文件元数据",
+  "schemas": [
+    {
+      "name": "file_name",
+      "title": "文件名",
+      "type": "String"
+    },
+    {
+      "name": "duration",
+      "title": "时长（秒）",
+      "type": "Number"
+    },
+    {
+      "name": "file_size",
+      "title": "文件大小（字节）",
+      "type": "Number"
+    },
+    {
+      "name": "transcription_status",
+      "title": "转录状态",
+      "type": "String"
+    },
+    {
+      "name": "transcription_text",
+      "title": "转录文本",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "user_id",
+      "title": "所属用户ID",
+      "type": "String"
+    },
+    {
+      "name": "note_id",
+      "title": "所属笔记ID",
+      "type": "String"
+    }
+  ]
+}
+  

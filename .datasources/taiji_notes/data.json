@@ -1,0 +1,46 @@
+
+[
+  {
+    "_id": "note_001",
+    "title": "细胞生物学核心概念",
+    "content": "# 细胞生物学核心概念\n\n## 细胞理论\n1. 所有生物体由细胞组成\n2. 细胞是生命的基本单位\n3. 细胞来自已存在的细胞\n\n## 细胞结构对比\n| 特征 | 原核细胞 | 真核细胞 |\n|------|----------|----------|\n| 核膜 | 无 | 有 |\n| 大小 | 1-10μm | 10-100μm |\n| 细胞器 | 简单 | 复杂 |\n\n## 能量转换\n- **线粒体**：细胞呼吸，产生ATP\n- **叶绿体**：光合作用，转换光能",
+    "source_recording_id": "rec_001",
+    "tags": ["生物学", "细胞", "考试重点"],
+    "is_public": false,
+    "version": 1,
+    "createdAt": 1730376800000,
+    "updatedAt": 1730376800000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "note_002",
+    "title": "有机化学反应机制",
+    "content": "# 有机化学反应机制\n\n## SN1反应\n单分子亲核取代反应，两步进行：\n1. 离去基团脱离，形成碳正离子\n2. 亲核试剂进攻碳正离子\n\n## SN2反应\n双分子亲核取代反应，一步完成：\n- 背面进攻，构型翻转\n- 二级动力学\n\n## 重要规则\n- **Markovnikov规则**：氢加到含氢较多的碳\n- **反Markovnikov**：过氧化物存在时",
+    "source_recording_id": "rec_002",
+    "tags": ["化学", "有机化学", "反应机制"],
+    "is_public": true,
+    "version": 2,
+    "createdAt": 1730377305000,
+    "updatedAt": 1730378000000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "note_003",
+    "title": "光合作用完整解析",
+    "content": "# 光合作用完整解析\n\n## 光反应阶段\n在类囊体膜上进行：\n- 水的光解：2H₂O → 4H + 4e⁻ + O₂\n- ATP合成：ADP + Pi → ATP\n- NADPH生成：NADP + H + 2e⁻ → NADPH\n\n## 暗反应阶段\n在叶绿体基质中进行：\n- 卡尔文循环：CO₂固定\n- C₃还原：生成糖类\n- RuBP再生：循环使用\n\n## 总反应式\n6CO₂ + 6H₂O → CH₁₂O + 6O₂",
+    "source_recording_id": "rec_003",
+    "tags": ["生物学", "光合作用", "能量转换"],
+    "is_public": true,
+    "version": 1,
+    "createdAt": 1730287200000,
+    "updatedAt": 1730287200000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  }
+]
+  

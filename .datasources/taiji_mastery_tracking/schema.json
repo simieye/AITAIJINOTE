@@ -1,0 +1,57 @@
+
+{
+  "name": "taiji_mastery_tracking",
+  "title": "太极知识掌握度追踪",
+  "schemas": [
+    {
+      "name": "user_id",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "subject",
+      "title": "知识领域",
+      "type": "String"
+    },
+    {
+      "name": "mastery_score",
+      "title": "掌握度分数",
+      "type": "Number"
+    },
+    {
+      "name": "total_interactions",
+      "title": "总交互次数",
+      "type": "Number"
+    },
+    {
+      "name": "correct_answers",
+      "title": "正确答案数",
+      "type": "Number"
+    },
+    {
+      "name": "last_practiced",
+      "title": "最后练习时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "strength_level",
+      "title": "强度等级",
+      "type": "String"
+    },
+    {
+      "name": "weakness_areas",
+      "title": "薄弱环节",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "improvement_trend",
+      "title": "改进趋势",
+      "type": "String"
+    }
+  ]
+}
+  

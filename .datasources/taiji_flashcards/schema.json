@@ -1,0 +1,40 @@
+
+{
+  "name": "taiji_flashcards",
+  "title": "太极闪卡",
+  "schemas": [
+    {
+      "name": "note_id",
+      "title": "所属笔记ID",
+      "type": "String"
+    },
+    {
+      "name": "front",
+      "title": "正面内容",
+      "type": "String"
+    },
+    {
+      "name": "back",
+      "title": "背面内容",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "difficulty",
+      "title": "难度等级",
+      "type": "Number"
+    },
+    {
+      "name": "last_reviewed",
+      "title": "上次复习时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "next_review",
+      "title": "下次复习时间",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    }
+  ]
+}
+  

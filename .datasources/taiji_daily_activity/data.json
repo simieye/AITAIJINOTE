@@ -1,0 +1,130 @@
+
+[
+  {
+    "_id": "activity_001",
+    "user_id": "user_123",
+    "activity_type": "note_created",
+    "description": "创建了《细胞生物学核心概念》笔记",
+    "metadata": {
+      "note_id": "note_001",
+      "title": "细胞生物学核心概念",
+      "word_count": 850
+    },
+    "study_duration": 45,
+    "notes_created": 1,
+    "flashcards_reviewed": 0,
+    "quizzes_completed": 0,
+    "knowledge_points_earned": 15,
+    "activity_date": "2024-11-01",
+    "createdAt": 1730380800000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "activity_002",
+    "user_id": "user_123",
+    "activity_type": "flashcard_reviewed",
+    "description": "复习了5张细胞生物学闪卡",
+    "metadata": {
+      "flashcard_ids": ["flash_001", "flash_002"],
+      "correct_answers": 4,
+      "total_questions": 5
+    },
+    "study_duration": 20,
+    "notes_created": 0,
+    "flashcards_reviewed": 5,
+    "quizzes_completed": 0,
+    "knowledge_points_earned": 8,
+    "activity_date": "2024-11-01",
+    "createdAt": 1730380800000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "activity_003",
+    "user_id": "user_123",
+    "activity_type": "quiz_completed",
+    "description": "完成了细胞生物学测验，得分85分",
+    "metadata": {
+      "quiz_id": "quiz_001",
+      "score": 85,
+      "total_questions": 5,
+      "correct_answers": 4
+    },
+    "study_duration": 15,
+    "notes_created": 0,
+    "flashcards_reviewed": 0,
+    "quizzes_completed": 1,
+    "knowledge_points_earned": 12,
+    "activity_date": "2024-11-01",
+    "createdAt": 1730380800000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "activity_004",
+    "user_id": "user_456",
+    "activity_type": "note_created",
+    "description": "创建了《有机化学反应》笔记",
+    "metadata": {
+      "note_id": "note_002",
+      "title": "有机化学反应",
+      "word_count": 620
+    },
+    "study_duration": 35,
+    "notes_created": 1,
+    "flashcards_reviewed": 0,
+    "quizzes_completed": 0,
+    "knowledge_points_earned": 12,
+    "activity_date": "2024-10-31",
+    "createdAt": 1730360000000,
+    "owner": "user_456",
+    "createBy": "user_456",
+    "updateBy": "user_456"
+  },
+  {
+    "_id": "activity_005",
+    "user_id": "user_789",
+    "activity_type": "note_created",
+    "description": "创建了《光合作用》笔记",
+    "metadata": {
+      "note_id": "note_003",
+      "title": "光合作用完整解析",
+      "word_count": 480
+    },
+    "study_duration": 25,
+    "notes_created": 1,
+    "flashcards_reviewed": 0,
+    "quizzes_completed": 0,
+    "knowledge_points_earned": 10,
+    "activity_date": "2024-10-30",
+    "createdAt": 1730288000000,
+    "owner": "user_789",
+    "createBy": "user_789",
+    "updateBy": "user_789"
+  },
+  {
+    "_id": "activity_006",
+    "user_id": "user_123",
+    "activity_type": "daily_login",
+    "description": "每日登录，获得奖励",
+    "metadata": {
+      "streak_day": 7,
+      "bonus_points": 5
+    },
+    "study_duration": 0,
+    "notes_created": 0,
+    "flashcards_reviewed": 0,
+    "quizzes_completed": 0,
+    "knowledge_points_earned": 5,
+    "activity_date": "2024-11-01",
+    "createdAt": 1730380800000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  }
+]
+  

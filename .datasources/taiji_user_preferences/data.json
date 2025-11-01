@@ -1,0 +1,82 @@
+
+[
+  {
+    "_id": "pref_user_123",
+    "user_id": "user_123",
+    "language": "zh-CN",
+    "theme": "light",
+    "notifications": {
+      "email": true,
+      "push": true,
+      "study": true,
+      "marketing": false,
+      "weekly_report": true,
+      "achievement": true
+    },
+    "display_name": "学习达人",
+    "avatar": "https://example.com/avatars/user123.jpg",
+    "timezone": "Asia/Shanghai",
+    "font_size": "medium",
+    "auto_save": true,
+    "tts_voice": "zh-CN-XiaoxiaoNeural",
+    "tts_speed": 1.0,
+    "createdAt": 1730270000000,
+    "updatedAt": 1730370000000,
+    "owner": "user_123",
+    "createBy": "user_123",
+    "updateBy": "user_123"
+  },
+  {
+    "_id": "pref_user_456",
+    "user_id": "user_456",
+    "language": "en-US",
+    "theme": "dark",
+    "notifications": {
+      "email": false,
+      "push": true,
+      "study": true,
+      "marketing": true,
+      "weekly_report": false,
+      "achievement": true
+    },
+    "display_name": "张老师",
+    "avatar": "https://example.com/avatars/user456.jpg",
+    "timezone": "America/New_York",
+    "font_size": "large",
+    "auto_save": false,
+    "tts_voice": "en-US-JennyNeural",
+    "tts_speed": 1.2,
+    "createdAt": 1730260000000,
+    "updatedAt": 1730360000000,
+    "owner": "user_456",
+    "createBy": "user_456",
+    "updateBy": "user_456"
+  },
+  {
+    "_id": "pref_user_789",
+    "user_id": "user_789",
+    "language": "zh-CN",
+    "theme": "taiji",
+    "notifications": {
+      "email": true,
+      "push": false,
+      "study": false,
+      "marketing": false,
+      "weekly_report": true,
+      "achievement": false
+    },
+    "display_name": "新手小白",
+    "avatar": "https://example.com/avatars/user789.jpg",
+    "timezone": "Asia/Shanghai",
+    "font_size": "small",
+    "auto_save": true,
+    "tts_voice": "zh-CN-YunxiNeural",
+    "tts_speed": 0.8,
+    "createdAt": 1730380000000,
+    "updatedAt": 1730380000000,
+    "owner": "user_789",
+    "createBy": "user_789",
+    "updateBy": "user_789"
+  }
+]
+  

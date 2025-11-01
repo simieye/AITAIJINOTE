@@ -1,0 +1,63 @@
+
+{
+  "name": "taiji_user_preferences",
+  "title": "太极用户偏好设置",
+  "schemas": [
+    {
+      "name": "user_id",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "language",
+      "title": "界面语言",
+      "type": "String"
+    },
+    {
+      "name": "theme",
+      "title": "主题偏好",
+      "type": "String"
+    },
+    {
+      "name": "notifications",
+      "title": "通知设置",
+      "type": "Object"
+    },
+    {
+      "name": "display_name",
+      "title": "显示名称",
+      "type": "String"
+    },
+    {
+      "name": "avatar",
+      "title": "头像URL",
+      "type": "Image"
+    },
+    {
+      "name": "timezone",
+      "title": "时区设置",
+      "type": "String"
+    },
+    {
+      "name": "font_size",
+      "title": "字体大小",
+      "type": "String"
+    },
+    {
+      "name": "auto_save",
+      "title": "自动保存",
+      "type": "Boolean"
+    },
+    {
+      "name": "tts_voice",
+      "title": "TTS语音",
+      "type": "String"
+    },
+    {
+      "name": "tts_speed",
+      "title": "TTS语速",
+      "type": "Number"
+    }
+  ]
+}
+  

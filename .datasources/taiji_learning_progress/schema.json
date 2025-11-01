@@ -1,0 +1,64 @@
+
+{
+  "name": "taiji_learning_progress",
+  "title": "太极学习进度",
+  "schemas": [
+    {
+      "name": "user_id",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "total_notes",
+      "title": "笔记总数",
+      "type": "Number"
+    },
+    {
+      "name": "total_flashcards",
+      "title": "闪卡总数",
+      "type": "Number"
+    },
+    {
+      "name": "total_quizzes",
+      "title": "测验总数",
+      "type": "Number"
+    },
+    {
+      "name": "completed_quizzes",
+      "title": "已完成测验数",
+      "type": "Number"
+    },
+    {
+      "name": "streak_days",
+      "title": "连续学习天数",
+      "type": "Number"
+    },
+    {
+      "name": "knowledge_score",
+      "title": "知识气得分",
+      "type": "Number"
+    },
+    {
+      "name": "last_activity_date",
+      "title": "最后活跃日期",
+      "type": "DateTime",
+      "format": "timestamp-ms"
+    },
+    {
+      "name": "weekly_study_hours",
+      "title": "本周学习小时数",
+      "type": "Number"
+    },
+    {
+      "name": "monthly_study_hours",
+      "title": "本月学习小时数",
+      "type": "Number"
+    },
+    {
+      "name": "total_study_hours",
+      "title": "总学习小时数",
+      "type": "Number"
+    }
+  ]
+}
+  

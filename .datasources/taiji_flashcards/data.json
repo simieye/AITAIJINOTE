@@ -1,0 +1,64 @@
+
+[
+  {
+    "_id": "flash_001",
+    "note_id": "note_001",
+    "front": "细胞理论的三条基本内容是什么？",
+    "back": "1. 所有生物体由细胞组成\n2. 细胞是生命的基本单位\n3. 细胞来自已存在的细胞",
+    "difficulty": 1,
+    "last_reviewed": 1730380000000,
+    "next_review": 1730400000000,
+    "createdAt": 1730377000000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "flash_002",
+    "note_id": "note_001",
+    "front": "原核细胞和真核细胞的主要区别？",
+    "back": "原核细胞：无核膜，大小1-10μm，细胞器简单\n真核细胞：有核膜，大小10-100μm，细胞器复杂",
+    "difficulty": 2,
+    "last_reviewed": 1730379000000,
+    "next_review": 1730400000000,
+    "createdAt": 1730377000000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "flash_003",
+    "note_id": "note_002",
+    "front": "什么是SN1反应？",
+    "back": "单分子亲核取代反应，两步进行：\n1. 离去基团脱离，形成碳正离子\n2. 亲核试剂进攻碳正离子",
+    "difficulty": 3,
+    "last_reviewed": 1730378000000,
+    "next_review": 1730410000000,
+    "createdAt": 1730378000000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "flash_004",
+    "note_id": "note_002",
+    "front": "Markovnikov规则的内容是什么？",
+    "back": "在加成反应中，氢原子会加到含氢较多的碳原子上",
+    "difficulty": 2,
+    "last_reviewed": 1730378500000,
+    "next_review": 1730400000000,
+    "createdAt": 1730378000000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "flash_005",
+    "note_id": "note_003",
+    "front": "光合作用的总反应式？",
+    "back": "6CO₂ + 6H₂O → CH₁₂O + 6O₂",
+    "difficulty": 1,
+    "last_reviewed": 1730288000000,
+    "next_review": 1730300000000,
+    "createdAt": 1730287500000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  }
+]
+  

@@ -1,0 +1,11 @@
+
+    {
+      "name": "note-generation",
+      "version": "1.0.0",
+      "description": "基于转录文本生成结构化笔记的云函数",
+      "main": "index.js",
+      "dependencies": {
+        "@cloudbase/node-sdk": "^3.3.7"
+      }
+    }
+  

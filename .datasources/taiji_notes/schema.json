@@ -1,0 +1,41 @@
+
+{
+  "name": "taiji_notes",
+  "title": "太极笔记",
+  "schemas": [
+    {
+      "name": "title",
+      "title": "标题",
+      "type": "String"
+    },
+    {
+      "name": "content",
+      "title": "内容",
+      "type": "Markdown"
+    },
+    {
+      "name": "source_recording_id",
+      "title": "源录音ID",
+      "type": "String"
+    },
+    {
+      "name": "tags",
+      "title": "标签",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "is_public",
+      "title": "是否公开",
+      "type": "Boolean"
+    },
+    {
+      "name": "version",
+      "title": "版本号",
+      "type": "Number"
+    }
+  ]
+}
+  

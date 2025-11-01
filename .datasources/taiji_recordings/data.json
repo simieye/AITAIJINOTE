@@ -1,0 +1,52 @@
+
+[
+  {
+    "_id": "rec_001",
+    "file_name": "细胞生物学讲解_20241031_143022.wav",
+    "duration": 185,
+    "file_size": 2960000,
+    "transcription_status": "completed",
+    "transcription_text": "今天我们来学习细胞生物学的核心概念。首先，所有生物体都是由细胞组成的，这是细胞理论的基础。细胞是生命的基本单位，它们能够进行自我复制和能量转换...",
+    "user_id": "user_123",
+    "note_id": "note_456",
+    "createdAt": 1730376622000,
+    "updatedAt": 1730376800000
+  },
+  {
+    "_id": "rec_002",
+    "file_name": "有机化学反应_20241031_150145.wav",
+    "duration": 240,
+    "file_size": 3840000,
+    "transcription_status": "processing",
+    "transcription_text": "",
+    "user_id": "user_123",
+    "note_id": "note_789",
+    "createdAt": 1730377305000,
+    "updatedAt": 1730377305000
+  },
+  {
+    "_id": "rec_003",
+    "file_name": "光合作用总结_20241030_093000.wav",
+    "duration": 312,
+    "file_size": 4992000,
+    "transcription_status": "completed",
+    "transcription_text": "光合作用是植物将光能转化为化学能的过程。这个过程发生在叶绿体中，需要阳光、水和二氧化碳作为原料。光合作用分为光反应和暗反应两个阶段...",
+    "user_id": "user_123",
+    "note_id": null,
+    "createdAt": 1730286600000,
+    "updatedAt": 1730287200000
+  },
+  {
+    "_id": "rec_004",
+    "file_name": "线粒体功能测验_20241029_160000.wav",
+    "duration": 95,
+    "file_size": 1520000,
+    "transcription_status": "failed",
+    "transcription_text": "",
+    "user_id": "user_123",
+    "note_id": "note_101",
+    "createdAt": 1730217600000,
+    "updatedAt": 1730217900000
+  }
+]
+  

@@ -1,0 +1,41 @@
+
+{
+  "name": "taiji_quizzes",
+  "title": "太极测验",
+  "schemas": [
+    {
+      "name": "note_id",
+      "title": "所属笔记ID",
+      "type": "String"
+    },
+    {
+      "name": "question",
+      "title": "问题",
+      "type": "String"
+    },
+    {
+      "name": "options",
+      "title": "选项",
+      "type": "Array",
+      "items": {
+        "type": "String"
+      }
+    },
+    {
+      "name": "correct_answer",
+      "title": "正确答案",
+      "type": "Number"
+    },
+    {
+      "name": "explanation",
+      "title": "解释说明",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "difficulty",
+      "title": "难度等级",
+      "type": "Number"
+    }
+  ]
+}
+  

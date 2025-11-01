@@ -1,0 +1,89 @@
+
+[
+  {
+    "_id": "quiz_001",
+    "note_id": "note_001",
+    "question": "细胞理论不包括以下哪一条？",
+    "options": [
+      "所有生物体由细胞组成",
+      "细胞是生命的基本单位",
+      "细胞来自已存在的细胞",
+      "所有细胞都有细胞核"
+    ],
+    "correct_answer": 3,
+    "explanation": "细胞理论的三条基本内容是：所有生物体由细胞组成、细胞是生命的基本单位、细胞来自已存在的细胞。并非所有细胞都有细胞核（如原核细胞）。",
+    "difficulty": 2,
+    "createdAt": 1730377500000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "quiz_002",
+    "note_id": "note_001",
+    "question": "线粒体的主要功能是什么？",
+    "options": [
+      "蛋白质合成",
+      "能量转换，产生ATP",
+      "储存遗传物质",
+      "细胞分裂"
+    ],
+    "correct_answer": 1,
+    "explanation": "线粒体是细胞的能量工厂，通过细胞呼吸产生ATP，为细胞活动提供能量。",
+    "difficulty": 1,
+    "createdAt": 1730377500000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "quiz_003",
+    "note_id": "note_002",
+    "question": "SN1反应的特点是？",
+    "options": [
+      "一步完成，构型翻转",
+      "两步进行，生成碳正离子",
+      "需要强碱条件",
+      "只发生在伯卤代烷"
+    ],
+    "correct_answer": 1,
+    "explanation": "SN1反应是两步进行的单分子亲核取代反应，首先离去基团脱离形成碳正离子中间体，然后亲核试剂进攻。",
+    "difficulty": 3,
+    "createdAt": 1730378500000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "quiz_004",
+    "note_id": "note_003",
+    "question": "光合作用的光反应发生在？",
+    "options": [
+      "叶绿体基质",
+      "类囊体膜",
+      "细胞核",
+      "线粒体"
+    ],
+    "correct_answer": 1,
+    "explanation": "光合作用的光反应在叶绿体的类囊体膜上进行，包括水的光解、ATP合成和NADPH生成。",
+    "difficulty": 2,
+    "createdAt": 1730288000000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  },
+  {
+    "_id": "quiz_005",
+    "note_id": "note_003",
+    "question": "光合作用的最终产物是什么？",
+    "options": [
+      "二氧化碳和水",
+      "葡萄糖和氧气",
+      "ATP和NADPH",
+      "蛋白质和脂肪"
+    ],
+    "correct_answer": 1,
+    "explanation": "光合作用的总反应式为6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂，最终产物是葡萄糖和氧气。",
+    "difficulty": 1,
+    "createdAt": 1730288000000,
+    "owner": "user_123",
+    "createBy": "user_123"
+  }
+]
+  

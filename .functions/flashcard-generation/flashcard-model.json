@@ -1,0 +1,80 @@
+
+    {
+      "name": "flashcard",
+      "displayName": "学习闪卡",
+      "description": "存储由笔记生成的学习闪卡，支持间隔复习",
+      "fields": [
+        {
+          "name": "noteId",
+          "type": "text",
+          "displayName": "关联笔记ID",
+          "required": true,
+          "description": "生成该闪卡的笔记ID"
+        },
+        {
+          "name": "front",
+          "type": "text",
+          "displayName": "正面问题",
+          "required": true,
+          "description": "闪卡正面显示的问题或提示"
+        },
+        {
+          "name": "back",
+          "type": "text",
+          "displayName": "背面答案",
+          "required": true,
+          "description": "闪卡背面显示的答案或解释"
+        },
+        {
+          "name": "difficulty",
+          "type": "number",
+          "displayName": "难度等级",
+          "required": true,
+          "description": "闪卡难度等级（1-5）"
+        },
+        {
+          "name": "tags",
+          "type": "array",
+          "displayName": "标签",
+          "required": false,
+          "description": "闪卡的分类标签"
+        },
+        {
+          "name": "order",
+          "type": "number",
+          "displayName": "排序序号",
+          "required": true,
+          "description": "闪卡在集合中的显示顺序"
+        },
+        {
+          "name": "createdAt",
+          "type": "datetime",
+          "displayName": "创建时间",
+          "required": true,
+          "description": "闪卡创建时间"
+        },
+        {
+          "name": "lastReviewedAt",
+          "type": "datetime",
+          "displayName": "最后复习时间",
+          "required": false,
+          "description": "最后一次复习该闪卡的时间"
+        },
+        {
+          "name": "reviewCount",
+          "type": "number",
+          "displayName": "复习次数",
+          "required": true,
+          "defaultValue": 0,
+          "description": "该闪卡被复习的次数"
+        },
+        {
+          "name": "nextReviewDate",
+          "type": "datetime",
+          "displayName": "下次复习日期",
+          "required": true,
+          "description": "根据间隔复习算法计算的下次复习日期"
+        }
+      ]
+    }
+  

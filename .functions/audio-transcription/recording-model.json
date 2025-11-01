@@ -1,0 +1,81 @@
+
+    {
+      "name": "recording",
+      "displayName": "录音文件",
+      "description": "存储录音文件元数据和转录结果",
+      "fields": [
+        {
+          "name": "fileID",
+          "type": "text",
+          "displayName": "云存储文件ID",
+          "required": true,
+          "description": "文件在云存储中的唯一标识"
+        },
+        {
+          "name": "fileName",
+          "type": "text",
+          "displayName": "文件名",
+          "required": true,
+          "description": "原始文件名"
+        },
+        {
+          "name": "title",
+          "type": "text",
+          "displayName": "录音标题",
+          "required": false,
+          "description": "录音的自定义标题"
+        },
+        {
+          "name": "tags",
+          "type": "array",
+          "displayName": "标签",
+          "required": false,
+          "description": "录音的标签数组"
+        },
+        {
+          "name": "transcription",
+          "type": "text",
+          "displayName": "转录文本",
+          "required": false,
+          "description": "Whisper 转录的文本内容"
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "displayName": "音频时长",
+          "required": false,
+          "description": "音频时长（秒）"
+        },
+        {
+          "name": "fileSize",
+          "type": "number",
+          "displayName": "文件大小",
+          "required": true,
+          "description": "文件大小（字节）"
+        },
+        {
+          "name": "mimeType",
+          "type": "text",
+          "displayName": "MIME类型",
+          "required": true,
+          "description": "音频文件的MIME类型"
+        },
+        {
+          "name": "createdAt",
+          "type": "datetime",
+          "displayName": "创建时间",
+          "required": true,
+          "description": "录音创建时间"
+        },
+        {
+          "name": "status",
+          "type": "enum",
+          "displayName": "处理状态",
+          "required": true,
+          "enumValues": ["processing", "completed", "failed"],
+          "defaultValue": "processing",
+          "description": "录音处理状态"
+        }
+      ]
+    }
+  

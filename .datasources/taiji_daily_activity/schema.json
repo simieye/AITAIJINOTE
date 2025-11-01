@@ -1,0 +1,59 @@
+
+{
+  "name": "taiji_daily_activity",
+  "title": "太极每日活跃记录",
+  "schemas": [
+    {
+      "name": "user_id",
+      "title": "用户ID",
+      "type": "String"
+    },
+    {
+      "name": "activity_type",
+      "title": "活动类型",
+      "type": "String"
+    },
+    {
+      "name": "description",
+      "title": "活动描述",
+      "type": "String"
+    },
+    {
+      "name": "metadata",
+      "title": "活动元数据",
+      "type": "Object"
+    },
+    {
+      "name": "study_duration",
+      "title": "学习时长（分钟）",
+      "type": "Number"
+    },
+    {
+      "name": "notes_created",
+      "title": "创建笔记数",
+      "type": "Number"
+    },
+    {
+      "name": "flashcards_reviewed",
+      "title": "复习闪卡数",
+      "type": "Number"
+    },
+    {
+      "name": "quizzes_completed",
+      "title": "完成测验数",
+      "type": "Number"
+    },
+    {
+      "name": "knowledge_points_earned",
+      "title": "获得知识气点数",
+      "type": "Number"
+    },
+    {
+      "name": "activity_date",
+      "title": "活动日期",
+      "type": "Date",
+      "format": "date"
+    }
+  ]
+}
+  

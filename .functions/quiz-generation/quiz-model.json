@@ -1,0 +1,87 @@
+
+    {
+      "name": "quiz",
+      "displayName": "测验题",
+      "description": "存储由笔记生成的测验题，支持学习评估",
+      "fields": [
+        {
+          "name": "noteId",
+          "type": "text",
+          "displayName": "关联笔记ID",
+          "required": true,
+          "description": "生成该测验题的笔记ID"
+        },
+        {
+          "name": "type",
+          "type": "enum",
+          "displayName": "题目类型",
+          "required": true,
+          "enumValues": ["single_choice", "multiple_choice", "true_false", "short_answer"],
+          "description": "测验题的类型"
+        },
+        {
+          "name": "question",
+          "type": "text",
+          "displayName": "题目内容",
+          "required": true,
+          "description": "测验题的问题内容"
+        },
+        {
+          "name": "options",
+          "type": "array",
+          "displayName": "选项列表",
+          "required": false,
+          "description": "选择题的选项列表"
+        },
+        {
+          "name": "correctAnswer",
+          "type": "text",
+          "displayName": "正确答案",
+          "required": true,
+          "description": "测验题的标准答案"
+        },
+        {
+          "name": "explanation",
+          "type": "text",
+          "displayName": "答案解析",
+          "required": true,
+          "description": "详细的答案解释"
+        },
+        {
+          "name": "difficulty",
+          "type": "number",
+          "displayName": "难度等级",
+          "required": true,
+          "description": "题目难度等级（1-5）"
+        },
+        {
+          "name": "tags",
+          "type": "array",
+          "displayName": "标签",
+          "required": false,
+          "description": "题目的分类标签"
+        },
+        {
+          "name": "order",
+          "type": "number",
+          "displayName": "排序序号",
+          "required": true,
+          "description": "题目在测验中的显示顺序"
+        },
+        {
+          "name": "createdAt",
+          "type": "datetime",
+          "displayName": "创建时间",
+          "required": true,
+          "description": "测验题创建时间"
+        },
+        {
+          "name": "updatedAt",
+          "type": "datetime",
+          "displayName": "更新时间",
+          "required": true,
+          "description": "测验题最后更新时间"
+        }
+      ]
+    }
+  
